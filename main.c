@@ -18,7 +18,7 @@ while (numb != random_number)
 
     if (numb < 0 || 100 < numb)
     {
-        printf("Tu ne sait pas lire ?\n");
+        printf("Tu ne sais pas lire ?\n");
     }
     
     else if (numb < random_number)
@@ -28,7 +28,7 @@ while (numb != random_number)
 
     else if (numb > random_number)
     {
-        printf("C'est moin !\n");
+        printf("C'est moins !\n");
     }
 
 }
